@@ -223,6 +223,11 @@ body {
     width: 50%;
 }
 
+@media(max-width: 768px) {
+    .container-brand > img {
+        width: 30% !important;
+    }
+}
 /* card-line */
 .card-line {
     margin-top: 10%;
