@@ -121,6 +121,8 @@ body {
     margin-left: 10% !important;
     background-color: white;
     z-index: 9999;
+    padding: 5%;
+    border-radius: 10px;
 }
 
 /* Start content */
@@ -635,7 +637,8 @@ footer {
 }
 
 .inputs-footer {
-    width: 100%;
+    width: 90%;
+    margin: 4% auto;
 }
 
 .inputs-footer > input {
@@ -729,7 +732,7 @@ footer {
     }
     
     .inputs-footer > input {
-        height: 4vh;
+        height: 42px;
     }
 
     .inputs-footer > input::placeholder {
@@ -742,6 +745,7 @@ footer {
     .text-check {
         width: 100% !important;
         font-size: 1.8vw;
+        margin-top: 8px;
     }
 
     .container-footer {
@@ -783,8 +787,9 @@ footer {
         }
 
         .btn-form {
-            height: 5vh;
+            height: 42px;
             width: 80%;
+            margin: 5% auto;
         }
     }
 
