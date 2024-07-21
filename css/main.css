@@ -260,7 +260,16 @@ body {
 
 @media(max-width:768px) {
     .cards {
-        width: 45%;
+        width: 45% !important;
+    }
+
+    .card-container {
+        gap: 0;
+        width: 100% !important;
+    }
+
+    .img-cards {
+        width: 100% !important;
     }
 
 }
