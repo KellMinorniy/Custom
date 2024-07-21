@@ -224,6 +224,9 @@ body {
 }
 
 @media(max-width: 768px) {
+    .brand-mobile {
+        width: 90% !important;
+    }
     .container-brand > img {
         width: 30% !important;
     }
